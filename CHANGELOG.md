@@ -1,3 +1,24 @@
+4.1.12 - 2024-08-14
+=======================
+* Add missing require for extract_options
+* Fix rails 7.2 ActiveSupport::ProxyObject deprecation
+* Multiple contributors on current and legacy test suite improvements
+
+4.1.12.rc1 - 2024-08-13
+=======================
+* Validating trusted publishing release
+* Add missing require for extract_options
+* Fix rails 7.2 ActiveSupport::ProxyObject deprecation
+* Multiple contributors on current and legacy test suite improvements
+
+4.1.11 - 2022-09-28
+===================
+* Fix missing require for Rails 7.0.3+
+
+4.1.10 - 2022-01-17
+===================
+* Support for Rails 7.0. NOTE: If you are using Delayed Job independent of Rails, Active Support 7 has dropped classic dependency autoloading. You will need to add and setup zeitwerk for autoloading to continue working in ActiveSupport 7.
+
 4.1.9 - 2020-12-09
 ==================
 * Support for Rails 6.1
